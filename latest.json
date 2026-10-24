@@ -1,9 +1,9 @@
 {
-  "versionCode": 7,
-  "versionName": "1.6",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.6/callapp.apk",
-  "sha256": "b69a6d4015ac9dd5206f4290ff746417f693749098a1b753fa1e234d67b6195c",
-  "sizeBytes": 17175201,
-  "notes": "Settings now keeps a reminder to turn off install access after an update. Choosing Not now no longer hides it forever: the app asks again after a few days, and Settings > About always shows the switch while it is on.",
-  "publishedAt": "2026-10-24T10:01:34Z"
+  "versionCode": 8,
+  "versionName": "1.7",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.7/callapp.apk",
+  "sha256": "519d78e837cb371d66f239ba2647b310bd4b04cbf317f2fb1d4a71a4fa4a5959",
+  "sizeBytes": 17175237,
+  "notes": "The updater now uses Android's own install session, so full-screen call access can survive future updates. If a phone still turns it off, callApp shows a one-tap fix after updating. After this update, allow full-screen calls once more if asked; later updates should keep it. Turn install access off again as usual.",
+  "publishedAt": "2026-10-24T10:41:15Z"
 }

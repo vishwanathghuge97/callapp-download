@@ -1,9 +1,9 @@
 {
-  "versionCode": 6,
-  "versionName": "1.5",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.5/callapp.apk",
-  "sha256": "3682103f77459f4829800870c6d0e5171b0717fe6a34060bb5b3c744b07eed0e",
+  "versionCode": 7,
+  "versionName": "1.6",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.6/callapp.apk",
+  "sha256": "b69a6d4015ac9dd5206f4290ff746417f693749098a1b753fa1e234d67b6195c",
   "sizeBytes": 17175201,
-  "notes": "Calls ring reliably now: the caller hears ringback while waiting, and the incoming ring keeps playing when a notification arrives. The ringing sound is owned by the call notification, so it survives the screen going away.",
-  "publishedAt": "2026-10-24T08:58:48Z"
+  "notes": "Settings now keeps a reminder to turn off install access after an update. Choosing Not now no longer hides it forever: the app asks again after a few days, and Settings > About always shows the switch while it is on.",
+  "publishedAt": "2026-10-24T10:01:34Z"
 }

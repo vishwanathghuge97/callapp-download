@@ -1,9 +1,9 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.4/callapp.apk",
-  "sha256": "384ccb57edc9f1e34fe3ffeadf1b652397cefd3f0fa98ca8d5c45de425df7319",
-  "sizeBytes": 17158813,
-  "notes": "Smaller download: callApp now ships only the 64-bit ARM build your phone uses. Features are unchanged.",
-  "publishedAt": "2026-10-24T08:06:13Z"
+  "versionCode": 6,
+  "versionName": "1.5",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.5/callapp.apk",
+  "sha256": "3682103f77459f4829800870c6d0e5171b0717fe6a34060bb5b3c744b07eed0e",
+  "sizeBytes": 17175201,
+  "notes": "Calls ring reliably now: the caller hears ringback while waiting, and the incoming ring keeps playing when a notification arrives. The ringing sound is owned by the call notification, so it survives the screen going away.",
+  "publishedAt": "2026-10-24T08:58:48Z"
 }

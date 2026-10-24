@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071013">
+  <meta name="description" content="callApp — private, encrypted calls between two phones. No accounts, no phone numbers.">
+  <title>callApp — private calls for two phones</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071013;
+      --card: #0e1a1f;
+      --line: #1d3038;
+      --text: #e9f5f8;
+      --muted: #9cb5be;
+      --accent: #8fd6ea;
+      --accent-strong: #b6e7f5;
+      --ink: #041014;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { min-height: 100%; }
+
+    body {
+      margin: 0;
+      padding: 32px 20px 48px;
+      background:
+        radial-gradient(90rem 50rem at 50% -20%, #12303a 0%, transparent 60%),
+        var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.55;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    main {
+      width: min(100%, 540px);
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 36px 28px 32px;
+      box-shadow: 0 24px 80px rgb(0 0 0 / 35%);
+    }
+
+    .logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 20px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 18px;
+      background: #10262e;
+      border: 1px solid #24414b;
+    }
+
+    .logo svg { width: 34px; height: 34px; }
+
+    h1 {
+      margin: 0;
+      text-align: center;
+      font-size: clamp(2.1rem, 9vw, 2.8rem);
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+    }
+
+    .tagline {
+      margin: 8px 0 0;
+      text-align: center;
+      font-size: 1.12rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .intro {
+      margin: 20px auto 26px;
+      max-width: 40ch;
+      text-align: center;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      min-height: 60px;
+      padding: 14px 20px;
+      border-radius: 18px;
+      background: var(--accent);
+      color: var(--ink);
+      font-size: 1.12rem;
+      font-weight: 750;
+      text-decoration: none;
+      transition: background 120ms ease, transform 120ms ease;
+    }
+
+    .button:hover { background: var(--accent-strong); }
+    .button:active { transform: translateY(1px); }
+    .button:focus-visible {
+      outline: 3px solid var(--accent-strong);
+      outline-offset: 3px;
+    }
+
+    .meta {
+      margin: 10px 0 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .qr {
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .qr img {
+      width: 204px;
+      height: 204px;
+      padding: 10px;
+      background: #fff;
+      border-radius: 18px;
+      display: block;
+    }
+
+    .qr p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.86rem;
+      text-align: center;
+    }
+
+    .steps {
+      margin: 26px 0 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: step;
+      display: grid;
+      gap: 12px;
+    }
+
+    .steps li {
+      counter-increment: step;
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      gap: 12px;
+      padding: 14px 16px;
+      background: #0a1519;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .steps li::before {
+      content: counter(step);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: #12303a;
+      color: var(--accent);
+      font-weight: 750;
+      font-size: 0.9rem;
+    }
+
+    .steps strong { color: var(--text); }
+
+    .safety {
+      margin: 24px 0 0;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 22px;
+      color: #6f8a94;
+      font-size: 0.78rem;
+      text-align: center;
+    }
+
+    @media (max-width: 380px) {
+      body { padding: 18px 12px 32px; }
+      main { padding: 28px 18px 24px; border-radius: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#8fd6ea" stroke-width="1.8"
+           stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6.5" y="2.5" width="11" height="19" rx="2.5"></rect>
+        <path d="M10 5.5h4"></path>
+        <path d="M9.4 15.3a3.7 3.7 0 0 1 5.2 0"></path>
+        <path d="M8 12.9a6.2 6.2 0 0 1 8 0"></path>
+        <circle cx="12" cy="18" r=".6" fill="#8fd6ea" stroke="none"></circle>
+      </svg>
+    </div>
+
+    <h1>callApp</h1>
+    <p class="tagline">Private calls between two phones.</p>
+
+    <p class="intro">
+      No accounts. No phone numbers. Pair once with a code, then call directly
+      over an encrypted connection.
+    </p>
+
+    <a class="button"
+       href="https://github.com/vishwanathghuge97/callapp-download/releases/latest/download/callapp.apk">
+      Download for Android
+    </a>
+    <p class="meta">Android 8 or newer</p>
+
+    <div class="qr">
+      <img src="qr.png" alt="QR code that opens this download page" width="204" height="204">
+      <p>Scan this code on the other phone to open this page.</p>
+    </div>
+
+    <ol class="steps">
+      <li><span><strong>Download and open the file.</strong> If Android asks, allow your browser to install unknown apps.</span></li>
+      <li><span><strong>Open callApp.</strong> Read the short welcome screen and continue.</span></li>
+      <li><span><strong>Pair the two phones.</strong> One phone shows a code; the other scans it. Then make a call.</span></li>
+    </ol>
+
+    <p class="safety">
+      Only install callApp from this page. If you already have callApp, use
+      Settings → About → Check for updates inside the app.
+    </p>
+  </main>
+
+  <footer>callApp · end-to-end encrypted calls</footer>
+</body>
+</html>

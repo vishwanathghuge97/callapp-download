@@ -1,9 +1,9 @@
 {
-  "versionCode": 3,
-  "versionName": "1.2",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.2/callapp.apk",
-  "sha256": "391d5a5275e9fe355cfc61cdb8baa62ff8ea2ab5f8f68f9772d9da35b9c3c9cd",
+  "versionCode": 4,
+  "versionName": "1.3",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.3/callapp.apk",
+  "sha256": "db35321667d54d987d290f0ab054c7deb9887de0eb615ce8c147d973a22b4e2d",
   "sizeBytes": 25399055,
-  "notes": "In-app updates and a cleaner Settings screen.",
-  "publishedAt": "2026-10-24T07:16:52Z"
+  "notes": "Small update to test in-app updates.",
+  "publishedAt": "2026-10-24T07:46:08Z"
 }

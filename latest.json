@@ -1,9 +1,9 @@
 {
-  "versionCode": 8,
-  "versionName": "1.7",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.7/callapp.apk",
-  "sha256": "519d78e837cb371d66f239ba2647b310bd4b04cbf317f2fb1d4a71a4fa4a5959",
-  "sizeBytes": 17175237,
-  "notes": "The updater now uses Android's own install session, so full-screen call access can survive future updates. If a phone still turns it off, callApp shows a one-tap fix after updating. After this update, allow full-screen calls once more if asked; later updates should keep it. Turn install access off again as usual.",
-  "publishedAt": "2026-10-24T10:41:15Z"
+  "versionCode": 9,
+  "versionName": "1.8",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.8/callapp.apk",
+  "sha256": "66d249da28c40a2ec9f1d85db4ac8686c45e854993a5b3152e50d77e7d408132",
+  "sizeBytes": 17175269,
+  "notes": "Existing pairs keep working without re-pairing. This update repairs older pairs automatically, keeps call media end-to-end encrypted, shortens server-side retention, and removes plaintext IP addresses from rate-limit records. A small privacy check may appear on the call screen while the encrypted audio path starts.",
+  "publishedAt": "2026-11-03T16:55:46Z"
 }

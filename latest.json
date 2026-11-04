@@ -1,9 +1,9 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.9/callapp.apk",
-  "sha256": "fd548a4b482f2caf81d0c8e4568145465a1805bef66ed0ca602634346c160061",
-  "sizeBytes": 17176617,
-  "notes": "Calling is faster and more reliable. The phone starts ringing sooner, calls connect more quickly, and the ringtone keeps playing while the call screen is open. This update also fixes a problem that could end a call immediately with \"Call ended for privacy\". The incoming-call notification now matches the call screen: clearer Answer and Decline buttons, the caller photo when the phone is unlocked, and a body that says what tapping does.",
-  "publishedAt": "2026-11-04T02:28:28Z"
+  "versionCode": 11,
+  "versionName": "1.10",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.10/callapp.apk",
+  "sha256": "bec3945fa6cbf63ddae3b208341dcbcebc5b92750cfb9efd0cb728c025b8cd7f",
+  "sizeBytes": 17193033,
+  "notes": "Fixes Decline from the incoming-call notification so the phone no longer opens callApp. Decline, Done, and missed calls close back to what was underneath (lock screen or current app). Back/gesture navigation now works consistently across button and gesture phones, and the current screen survives rotation.",
+  "publishedAt": "2026-11-04T09:16:23Z"
 }

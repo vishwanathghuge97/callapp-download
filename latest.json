@@ -1,9 +1,9 @@
 {
-  "versionCode": 11,
-  "versionName": "1.10",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.10/callapp.apk",
-  "sha256": "bec3945fa6cbf63ddae3b208341dcbcebc5b92750cfb9efd0cb728c025b8cd7f",
-  "sizeBytes": 17193033,
-  "notes": "Fixes Decline from the incoming-call notification so the phone no longer opens callApp. Decline, Done, and missed calls close back to what was underneath (lock screen or current app). Back/gesture navigation now works consistently across button and gesture phones, and the current screen survives rotation.",
-  "publishedAt": "2026-11-04T09:16:23Z"
+  "versionCode": 12,
+  "versionName": "1.11",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.11/callapp.apk",
+  "sha256": "4e8c35e32a53b9033fb75b0318655d6d605f0ca350241589981142c60fb3a51f",
+  "sizeBytes": 17193029,
+  "notes": "Shows the verified caller's name and photo on the locked call screen, matching the rest of the call UI. The public lockscreen notification stays redacted (\"Incoming call\" / \"Missed call\"). Includes the 1.10 decline and navigation fixes.",
+  "publishedAt": "2026-11-06T03:56:42Z"
 }

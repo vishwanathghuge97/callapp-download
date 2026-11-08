@@ -312,19 +312,22 @@
 <body>
   <div class="page">
     <header class="brand">
-      <svg class="brand-mark" viewBox="0 0 1024 1024" aria-hidden="true">
-        <rect width="1024" height="1024" rx="220" fill="#0B5568"></rect>
-        <g transform="translate(26 27)">
-          <path fill="#FBF8F3" d="M392 259h188a76 76 0 0 1 76 76v298a76 76 0 0 1-76 76H392a76 76 0 0 1-76-76V335a76 76 0 0 1 76-76z"></path>
-          <circle cx="486" cy="414" r="66" fill="#0B5568"></circle>
-          <path fill="#0B5568" d="M368 625c0-93 62-125 118-125s118 32 118 125z"></path>
-          <circle cx="614" cy="669" r="86" fill="#FBF8F3"></circle>
-          <circle cx="614" cy="669" r="74" fill="#17642F"></circle>
-          <g transform="translate(614 669) scale(5) translate(-12 -12)">
-            <path fill="#FBF8F3" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
-          </g>
+      <svg class="brand-mark" viewBox="0 0 512 512" aria-hidden="true">
+        <defs>
+          <linearGradient id="brand-bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#0B3B52"></stop>
+            <stop offset="1" stop-color="#0F766E"></stop>
+          </linearGradient>
+        </defs>
+        <rect width="512" height="512" rx="112" fill="url(#brand-bg)"></rect>
+        <g transform="translate(76,86) scale(15)" fill="#FFFFFF">
+          <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
         </g>
-        <rect class="mark-edge" x="7" y="7" width="1010" height="1010" rx="213" fill="none" stroke-width="14"></rect>
+        <g fill="none" stroke="#5EEAD4" stroke-width="22" stroke-linecap="round">
+          <path d="M290 150a80 80 0 0 1 72 72"></path>
+          <path d="M290 92a138 138 0 0 1 130 130"></path>
+        </g>
+        <rect class="mark-edge" x="3.5" y="3.5" width="505" height="505" rx="106.5" fill="none" stroke-width="7"></rect>
       </svg>
       <span class="wordmark">callApp</span>
     </header>

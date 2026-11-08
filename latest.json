@@ -1,9 +1,9 @@
 {
-  "versionCode": 12,
-  "versionName": "1.11",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.11/callapp.apk",
-  "sha256": "4e8c35e32a53b9033fb75b0318655d6d605f0ca350241589981142c60fb3a51f",
+  "versionCode": 13,
+  "versionName": "1.12",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.12/callapp.apk",
+  "sha256": "9deb11ca01fac79f34a904d4b37c085e1434034bb2a1375b25900caaf37646dc",
   "sizeBytes": 17193029,
-  "notes": "Shows the verified caller's name and photo on the locked call screen, matching the rest of the call UI. The public lockscreen notification stays redacted (\"Incoming call\" / \"Missed call\"). Includes the 1.10 decline and navigation fixes.",
-  "publishedAt": "2026-11-06T03:56:42Z"
+  "notes": "Photo-first redesign: Home sizes rounded portraits by the number of people (one large square, two side-by-side cards, three or more a two-column grid), with a plain Settings action and no generic \"Tap to call\" line. All four call screens put the photo on top, name/status/timer below, and controls in one rounded tray. Large-font layouts adapt instead of clipping, and the ended-call photo is smaller so the result always fits.",
+  "publishedAt": "2026-11-08T08:40:13Z"
 }

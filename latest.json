@@ -1,9 +1,9 @@
 {
-  "versionCode": 13,
-  "versionName": "1.12",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.12/callapp.apk",
-  "sha256": "9deb11ca01fac79f34a904d4b37c085e1434034bb2a1375b25900caaf37646dc",
-  "sizeBytes": 17193029,
-  "notes": "Photo-first redesign: Home sizes rounded portraits by the number of people (one large square, two side-by-side cards, three or more a two-column grid), with a plain Settings action and no generic \"Tap to call\" line. All four call screens put the photo on top, name/status/timer below, and controls in one rounded tray. Large-font layouts adapt instead of clipping, and the ended-call photo is smaller so the result always fits.",
-  "publishedAt": "2026-11-08T08:40:13Z"
+  "versionCode": 14,
+  "versionName": "1.13",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.13/callapp.apk",
+  "sha256": "273823d28f3a5b185f7bdbacc85ad019f4416fb3f90c70332220a387390b1120",
+  "sizeBytes": 17194457,
+  "notes": "New app icon: the photo-first portrait card with a green call badge, on the launcher, home-screen widget, debug build, and download site. Android 13+ themed icons get a clean handset-only monochrome layer. No call, pairing, or privacy changes; no need to re-pair.",
+  "publishedAt": "2026-11-08T09:46:47Z"
 }

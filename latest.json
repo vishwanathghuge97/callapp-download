@@ -1,9 +1,9 @@
 {
-  "versionCode": 15,
-  "versionName": "1.14",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.14/callapp.apk",
-  "sha256": "4c4c3ef7c672e3d934ec11584e6da9d57a22a7227d46915b11a319ac61c83460",
-  "sizeBytes": 17194593,
-  "notes": "Launcher icon fixed everywhere, including Android 13+ themed icons: the portrait card and person now render instead of a generic handset. The green call badge stays inside the launcher mask, the handset is centred, and the card mark itself is centred. Update downloads now retry automatically on server errors and slow connections, with clearer messages. Call screens can be screenshotted again; only the pairing QR blocks screenshots. Incoming-call notification actions no longer share one green tint. No re-pair needed.",
-  "publishedAt": "2026-11-08T16:03:20Z"
+  "versionCode": 16,
+  "versionName": "1.15",
+  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.15/callapp.apk",
+  "sha256": "7f511976293259bcfd2ff09923551f77fa3a76821a25797e4bf4582653325813",
+  "sizeBytes": 17195529,
+  "notes": "New app icon: the handset and signal waves from the new logo now appear on the launcher, Android 13+ themed icons, the debug build, the widget, and the download page. The supplied artwork is unchanged; only a uniform scale keeps the whole mark inside the launcher mask. Version 1.15 includes no other behavior changes: updater retries and screenshot rules stay as in 1.14. No re-pair needed.",
+  "publishedAt": "2026-11-08T16:15:54Z"
 }

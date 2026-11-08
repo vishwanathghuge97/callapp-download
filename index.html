@@ -9,6 +9,7 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="referrer" content="no-referrer">
   <meta name="description" content="callApp — private calls between two phones. No accounts, no phone numbers.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <title>callApp — private calls for two phones</title>
   <style>
     :root {
@@ -262,16 +263,6 @@
       line-height: 1.5;
     }
 
-    .privacy-card {
-      margin: 0;
-      padding: 16px;
-      border-radius: 24px;
-      background: var(--surface-variant);
-      color: var(--muted);
-      font-size: 1.125rem;
-      line-height: 1.5;
-    }
-
     .info-banner {
       display: flex;
       align-items: flex-start;
@@ -301,14 +292,6 @@
       font-weight: 600;
     }
 
-    .footer {
-      margin-top: 32px;
-      padding-bottom: 8px;
-      color: var(--muted);
-      font-size: 1.125rem;
-      text-align: center;
-    }
-
     @media (min-width: 720px) {
       .page {
         padding-top: 48px;
@@ -329,14 +312,19 @@
 <body>
   <div class="page">
     <header class="brand">
-      <svg class="brand-mark" viewBox="0 0 108 108" aria-hidden="true">
-        <rect width="108" height="108" rx="24" fill="#0B5568"></rect>
-        <path fill="#FBF8F3" d="M40 28h28a14 14 0 0 1 14 14v14a14 14 0 0 1-14 14H40a14 14 0 0 1-14-14V42a14 14 0 0 1 14-14z"></path>
-        <path fill="#FBF8F3" d="M42 66v14l14-14z"></path>
-        <g transform="translate(42.6 37.6) scale(.95)">
-          <path fill="#0B5568" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
+      <svg class="brand-mark" viewBox="0 0 1024 1024" aria-hidden="true">
+        <rect width="1024" height="1024" rx="220" fill="#0B5568"></rect>
+        <g transform="translate(512 512) scale(1.2) translate(-512 -512)">
+          <path fill="#FBF8F3" d="M392 259h188a76 76 0 0 1 76 76v298a76 76 0 0 1-76 76H392a76 76 0 0 1-76-76V335a76 76 0 0 1 76-76z"></path>
+          <circle cx="486" cy="414" r="66" fill="#0B5568"></circle>
+          <path fill="#0B5568" d="M368 625c0-93 62-125 118-125s118 32 118 125z"></path>
+          <circle cx="614" cy="669" r="86" fill="#FBF8F3"></circle>
+          <circle cx="614" cy="669" r="74" fill="#17642F"></circle>
+          <g transform="translate(614 669) scale(5) translate(-12 -12)">
+            <path fill="#FBF8F3" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
+          </g>
         </g>
-        <rect class="mark-edge" x="0.75" y="0.75" width="106.5" height="106.5" rx="23.25" fill="none" stroke-width="1.5"></rect>
+        <rect class="mark-edge" x="7" y="7" width="1010" height="1010" rx="213" fill="none" stroke-width="14"></rect>
       </svg>
       <span class="wordmark">callApp</span>
     </header>
@@ -419,15 +407,6 @@
         </ol>
       </section>
 
-      <section class="section" aria-labelledby="privacy-title">
-        <h2 id="privacy-title">Privacy</h2>
-        <p class="privacy-card">
-          Calls are private. Only you and the person you call can hear them.
-          Photos stay on this phone. callApp has no accounts, no phone numbers
-          and no ads.
-        </p>
-      </section>
-
       <aside class="info-banner">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-6h2v6Zm0-8h-2V7h2v2Z"></path>
@@ -438,7 +417,6 @@
         </p>
       </aside>
 
-      <footer class="footer">callApp · Made for families.</footer>
     </main>
   </div>
 </body>

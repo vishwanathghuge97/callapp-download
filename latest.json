@@ -1,9 +1,1 @@
-{
-  "versionCode": 16,
-  "versionName": "1.15",
-  "apkUrl": "https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.15/callapp.apk",
-  "sha256": "7f511976293259bcfd2ff09923551f77fa3a76821a25797e4bf4582653325813",
-  "sizeBytes": 17195529,
-  "notes": "New app icon: the handset and signal waves from the new logo now appear on the launcher, Android 13+ themed icons, the debug build, the widget, and the download page. The supplied artwork is unchanged; only a uniform scale keeps the whole mark inside the launcher mask. Version 1.15 includes no other behavior changes: updater retries and screenshot rules stay as in 1.14. No re-pair needed.",
-  "publishedAt": "2026-11-08T16:15:54Z"
-}
+{"versionCode":18,"versionName":"1.17","apkUrl":"https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.17/callapp.apk","sha256":"10ccbcda8c5167bf7f5d135321f4e1b2f33794a94f5338e8afa5806a8653ced2","sizeBytes":17212149,"notes":"Automatic repair for older pairs now works without opening both apps. 1.17 repairs large address books in bulk, wakes the other phone with a content-free push, and needs no re-pair or re-scan. The update manifest is now signed and verified with a pinned offline key (F-015).","publishedAt":"2026-11-14T03:31:30Z","payload":"{\"versionCode\":18,\"versionName\":\"1.17\",\"apkUrl\":\"https://github.com/vishwanathghuge97/callapp-download/releases/download/v1.17/callapp.apk\",\"sha256\":\"10ccbcda8c5167bf7f5d135321f4e1b2f33794a94f5338e8afa5806a8653ced2\",\"sizeBytes\":17212149,\"notes\":\"Automatic repair for older pairs now works without opening both apps. 1.17 repairs large address books in bulk, wakes the other phone with a content-free push, and needs no re-pair or re-scan. The update manifest is now signed and verified with a pinned offline key (F-015).\",\"publishedAt\":\"2026-11-14T03:31:30Z\"}","signature":{"alg":"ed25519","keyId":"2ef5971016d967ca","value":"Shui8MMfz6PondQhrhLv3KOdoDGv+A2/QxW1wS2ffzINqmBgiYYGhEZAbYGVDh9CwwDB1j1lZ24uPeGPkzCJBw=="}}
